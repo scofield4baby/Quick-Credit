@@ -1,0 +1,167 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ececec;
+	min-width: 320px;
+	max-width: 800px;
+	margin: auto auto;
+}
+
+.container{
+	margin:20px;
+}
+
+nav{
+	background-color: #fff;
+}
+.nav>a{
+	margin-right:15px;
+}
+.navigation{
+	display: flex;
+	padding: 10px; 
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+nav a{
+	text-decoration: none;
+	color: blueviolet;
+	font-size: 1.2em;
+}
+.navbrand{
+	margin: auto auto auto 50px;
+}
+.btn{
+	background-color: blueviolet;
+	color:#fff;
+	cursor: pointer;
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.2);
+	border-radius: 25px;
+	transition: all 0.4s;
+	font-weight: bold;
+}
+.btn-green{
+	background-color: lightgreen;
+}
+.btn:focus, .btn:hover{
+	background-color: #fff;
+	color: blueviolet;
+	border: 2px solid blueviolet;
+}
+
+.big-icon{
+	font-size: 5em;
+	margin-top: 20px
+}
+
+
+input, button{
+	padding: 15px;
+	margin:10px 0px;
+	width: 50%;
+	background-color: #ececec;
+	border: 2px solid transparent;
+	outline: none;
+	transition: border 1s, background-color 1s;
+}
+
+input:hover,
+input:focus{
+	border:2px solid blueviolet;
+	background-color: #fff;
+}
+
+
+tr{
+	height: 30px;
+}
+td, th{
+	padding:10px;
+	text-align: left;
+	background-color: #ececec
+}
+tr.grey{
+	background-color: #ececec;
+}
+table{
+	width: 100%;
+	padding:10px;
+	margin-top: 50px;
+	background-color:white;
+	font-weight: bold;
+}
+.title{
+	margin-top: 30px;
+	color: blueviolet;
+}
+input.search{
+	border-radius: 10px;
+	margin-right: 10px;
+	width: 200px;
+}
+.nav i, .nav a{
+margin-right:10px;
+}
+.verify{
+	color: lightgreen;
+	cursor: pointer;
+}
+.verify:hover{
+	text-decoration: underline;
+	font-size: 105%;
+}
+.user-photo{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-color: blueviolet;
+	color:#fff;
+	padding: 10px;
+	margin: 20px;
+}
+.user-loan{
+	display: flex;
+	border-top:5px solid blueviolet;
+	border-bottom:5px solid blueviolet;
+}
+
+.user-details{
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+.user-info{
+	border-bottom: 2px solid blueviolet;
+	margin-bottom: 10px;
+}
+.loan-responce{
+	display: flex;
+	margin-top: 10px; 
+}
+.approve, .reject{
+	padding: 10px 80px;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+.approve{
+	background-color: lightgreen;
+}
+.reject{
+	background-color: red;
+	color:#fff;
+}
+
+.pay{
+	border: 2px solid blueviolet;
+}
